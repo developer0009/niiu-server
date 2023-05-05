@@ -1,0 +1,298 @@
+.ticket-section {
+	padding: 50px;
+}
+.ticket-section .heading h5 {
+	opacity: 0.5;
+	font-weight: bolder;
+}
+.ticket-section .heading h2 {
+	font-size: 40px;
+	font-weight: bolder;
+}
+.ticket-section .form-section {
+	margin-top: 30px;
+}
+.ticket-section .first,
+.ticket-section .second,
+.ticket-section .third {
+	margin-bottom: 20px;
+}
+.ticket-section .name-input {
+	margin-right: 30px;
+}
+.ticket-section .name-input,
+.ticket-section .email-input {
+	border-radius: 20px;
+	border: none;
+	width: 595px;
+	height: 45px;
+	padding: 25px;
+}
+.ticket-section .website-input {
+	border-radius: 20px;
+	border: none;
+	width: 100%;
+	height: 45px;
+	padding: 25px;
+}
+.ticket-section textarea {
+	border-radius: 20px;
+	border: none;
+	width: 100%;
+	height: 100px;
+	padding: 25px;
+}
+.ticket-section textarea:focus {
+	border: none;
+	outline: none;
+}
+
+.ticket-section input:focus {
+	border: none;
+	outline: none;
+}
+
+.ticket-section .button {
+	border: none;
+	text-align: center;
+	width: 200px;
+	height: 45px;
+	border-radius: 20px;
+	background-color: white;
+	color: black;
+	transition: all 0.5s;
+	/* margin: 5px; */
+	font-weight: bolder;
+}
+
+.ticket-section .button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.ticket-section .button span:after {
+	content: "\00bb";
+	position: absolute;
+	font-size: "50px";
+	opacity: 0;
+	top: 0;
+	right: -40px;
+	transition: 0.5s;
+}
+
+.ticket-section .button:hover span {
+	padding-right: 25px;
+}
+
+.ticket-section .button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+@media (max-width: 1399px) {
+	.ticket-section .name-input {
+		margin-right: 30px;
+	}
+	.ticket-section .name-input,
+	.ticket-section .email-input {
+		border-radius: 20px;
+		border: none;
+		width: 503px;
+		height: 45px;
+		padding: 25px;
+	}
+	.ticket-section textarea {
+		padding: 20px;
+	}
+	.ticket-section .heading h5 {
+		opacity: 0.5;
+		font-weight: bolder;
+	}
+	.ticket-section .heading h2 {
+		font-size: 40px;
+		font-weight: bolder;
+	}
+}
+
+@media (max-width: 1199px) {
+	.ticket-section .name-input {
+		margin-right: 30px;
+	}
+	.ticket-section .name-input,
+	.ticket-section .email-input {
+		border-radius: 20px;
+		border: none;
+		width: 412px;
+		/* height: 20px;
+		padding: 20px; */
+		font-size: 14px;
+	}
+	.ticket-section .website-input {
+		border-radius: 20px;
+		border: none;
+		width: 100%;
+		/* height: 20px;
+		padding: 20px; */
+		font-size: 14px;
+	}
+	.ticket-section .message-input {
+		font-size: 14px;
+	}
+	.ticket-section .heading h5 {
+		font-size: 16px;
+	}
+	.ticket-section .heading h2 {
+		font-size: 35px;
+	}
+	.ticket-section .button {
+		font-size: 12px;
+		height: 40px;
+	}
+}
+@media (max-width: 991px) {
+	.ticket-section .first {
+		display: block;
+	}
+	.ticket-section .name-input {
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+	.ticket-section .name-input,
+	.ticket-section .email-input {
+		border-radius: 20px;
+		border: none;
+		width: 100%;
+		height: 25px;
+		padding: 20px;
+	}
+	.ticket-section {
+		padding: 40px;
+	}
+	.ticket-section .heading h5 {
+		font-size: 16px;
+	}
+	.ticket-section .heading h2 {
+		font-size: 35px;
+	}
+}
+@media (max-width: 767px) {
+	.ticket-section .name-input,
+	.ticket-section .email-input {
+		border-radius: 20px;
+		border: none;
+		width: 100%;
+		height: 20px;
+		padding: 20px;
+		font-size: 12px;
+	}
+	.ticket-section .website-input {
+		border-radius: 20px;
+		border: none;
+		width: 100%;
+		height: 20px;
+		padding: 20px;
+		font-size: 12px;
+	}
+	.ticket-section .message-input {
+		font-size: 12px;
+	}
+	.ticket-section {
+		padding: 30px;
+	}
+	.ticket-section .heading h5 {
+		font-size: 14px;
+	}
+	.ticket-section .heading h2 {
+		font-size: 25px;
+	}
+	.ticket-section .button {
+		font-size: 12px;
+	}
+}
+
+.ticket-section .play-icon {
+	/* border: 4px rgb(252, 252, 255) solid; */
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+	margin: 0px auto;
+	cursor: pointer;
+	position: relative;
+	background-color: #fe4c1c;
+}
+.ticket-section .play-icon img {
+	width: 30px;
+	height: 30px;
+	margin-left: 6px;
+}
+.ticket-section .play-icon img.second-img {
+	display: none;
+}
+
+.ticket-section .play-txt {
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	line-height: 1.4;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+.ticket-section .stroke-dotted {
+	opacity: 0;
+	stroke-dasharray: 4, 5;
+	stroke-width: 1px;
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: spin 4s infinite linear;
+	animation: spin 4s infinite linear;
+	-webkit-transition: opacity 1s ease, stroke-width 1s ease;
+	transition: opacity 1s ease, stroke-width 1s ease;
+}
+/* spin animation  */
+
+@-webkit-keyframes spin {
+	to {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@keyframes spin {
+	to {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+.ticket-section.stroke-solid {
+	stroke-dashoffset: 0;
+	stroke-dasharray: 300;
+	stroke-width: 4px;
+	-webkit-transition: stroke-dashoffset 1s ease, opacity 1s ease;
+	transition: stroke-dashoffset 1s ease, opacity 1s ease;
+}
+
+.ticket-section .icon {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-transition: -webkit-transform 200ms ease-out;
+	transition: -webkit-transform 200ms ease-out;
+	transition: transform 200ms ease-out;
+	transition: transform 200ms ease-out, -webkit-transform 200ms ease-out;
+}
+.ticket-section #play:hover .stroke-dotted {
+	stroke-width: 4px;
+	opacity: 1;
+}
+.ticket-section #play:hover .stroke-solid {
+	opacity: 0;
+	stroke-dashoffset: 300;
+}
+.ticket-section #play:hover .icon {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}

@@ -1,0 +1,226 @@
+.about-us-section .row {
+	display: flex;
+	align-items: center;
+}
+.about-us-section .first-set {
+	margin-bottom: 50px;
+}
+.about-us-section .first-set {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 40px;
+}
+
+.about-us-section .first-set .card {
+	width: 40%;
+	padding: 15px;
+	text-align: center;
+	border-radius: 20px;
+	border: none;
+}
+
+.about-us-section .first-set .card img,
+.second-set .card img {
+	width: 64px;
+}
+.about-us-section .first-set .card .card-body h6,
+.second-set .card .card-body h6 {
+	font-weight: bolder;
+}
+.about-us-section .first-set .card .card-body p,
+.second-set .card .card-body p {
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+.about-us-section .cards-about {
+	padding-right: 40px;
+}
+
+.about-us-section .heading h5 {
+	opacity: 0.5;
+	font-weight: bolder;
+}
+.about-us-section .heading h2 {
+	font-size: 40px;
+	font-weight: bolder;
+}
+.about-us-section .content p {
+	font-size: 14px;
+	opacity: 0.7;
+	text-align: justify;
+}
+.about-us-section .content-2 {
+	display: flex;
+	justify-content: space-between;
+}
+.about-us-section .content-2 h2 {
+	color: #2b0a78;
+	font-weight: bolder;
+}
+
+.about-us-section .card .card-title {
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+@media (max-width: 1399px) {
+	.about-us-section .first-set .card {
+		padding: 12px;
+	}
+	.about-us-section .cards-about {
+		padding-right: 15px;
+	}
+
+	.about-us-section .first-set .card img,
+	.second-set .card img {
+		width: 50px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.about-us-section .cards-about {
+		padding-right: 10px;
+	}
+
+	.about-us-section .heading h5 {
+		font-size: 16px;
+	}
+	.about-us-section .heading h2 {
+		font-size: 35px;
+	}
+	.about-us-section .content p {
+		font-size: 12px;
+	}
+	.about-us-section .content-2 h2 {
+		font-size: 30px;
+	}
+	.about-us-section .content-2 p {
+		font-size: 12px;
+	}
+	.about-us-section .first-set .card img,
+	.second-set .card img {
+		width: 40px;
+	}
+	.about-us-section .card .card-title {
+		font-size: 14px;
+	}
+	.about-us-section .first-set .card .card-body p,
+	.second-set .card .card-body p {
+		font-size: 12px;
+		opacity: 0.7;
+	}
+
+	.about-us-section .first-set .card {
+		padding: 8px;
+		text-align: center;
+		border-radius: 20px;
+		border: none;
+	}
+}
+
+@media (max-width: 991px) {
+	.about-us-section .cards-about {
+		padding-right: 0px;
+	}
+
+	.about-us-section .first-set {
+		gap: 30px;
+	}
+	.about-us-section .heading {
+		margin-top: 0px;
+		text-align: center;
+	}
+	.about-us-section .cards-res {
+		margin-top: 45px;
+	}
+	.about-us-section .heading h5 {
+		font-size: 16px;
+	}
+	.about-us-section .heading h2 {
+		font-size: 35px;
+	}
+	.about-us-section .content p {
+		font-size: 12px;
+		/* text-align: center; */
+	}
+	.about-us-section .content-2 h2 {
+		font-size: 30px;
+	}
+	.about-us-section .content-2 p {
+		font-size: 12px;
+	}
+	.about-us-section .first-set .card img,
+	.second-set .card img {
+		width: 40px;
+	}
+	.about-us-section .card .card-title {
+		font-size: 14px;
+	}
+	.about-us-section .first-set .card .card-body p,
+	.second-set .card .card-body p {
+		font-size: 12px;
+		opacity: 0.7;
+	}
+
+	.about-us-section .first-set .card,
+	.second-set .card {
+		padding: 15px;
+		text-align: center;
+		border-radius: 20px;
+		border: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.about-us-section .cards-about {
+		padding-right: 0px;
+	}
+
+	.about-us-section .heading {
+		margin-top: 0px;
+		text-align: center;
+	}
+	.about-us-section .cards-res {
+		margin-top: 45px;
+	}
+	.about-us-section .heading h5 {
+		font-size: 14px;
+	}
+	.about-us-section .heading h2 {
+		font-size: 25px;
+	}
+	.about-us-section .content p {
+		font-size: 12px;
+		/* text-align: center; */
+	}
+	.about-us-section .content-2 h2 {
+		font-size: 20px;
+	}
+	.about-us-section .content-2 p {
+		font-size: 12px;
+	}
+	.about-us-section .first-set .card img,
+	.second-set .card img {
+		width: 35px;
+	}
+	.about-us-section .card .card-title {
+		font-size: 14px;
+	}
+	.about-us-section .first-set .card .card-body p,
+	.second-set .card .card-body p {
+		font-size: 12px;
+		opacity: 0.7;
+	}
+
+	.about-us-section .first-set .card {
+		width: 45%;
+	}
+}
+
+@media (max-width: 500px) {
+	.about-us-section .first-set .card {
+		width: 80%;
+	}
+}

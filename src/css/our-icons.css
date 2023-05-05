@@ -1,0 +1,14 @@
+.icons i {
+	font-size: 25px;
+	margin-right: 20px;
+	opacity: 0.7;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	transition: 0.7s;
+	cursor: pointer;
+}
+
+.icons i:hover {
+	color: #fe4c1c;
+	opacity: 1;
+}

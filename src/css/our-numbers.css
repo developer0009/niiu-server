@@ -1,0 +1,8 @@
+.our-numbers .card img {
+	width: 100px;
+}
+@media (max-width: 1199px) {
+	.our-numbers .card img {
+		width: 80px;
+	}
+}

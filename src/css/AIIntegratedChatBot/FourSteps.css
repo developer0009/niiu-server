@@ -1,0 +1,108 @@
+.chatbot-four-steps .steps {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.chatbot-four-steps .first-set {
+	margin-bottom: 70px;
+}
+
+.chatbot-four-steps .steps .card {
+	padding: 20px;
+	text-align: center;
+	width: 432px;
+	border: none;
+}
+
+.chatbot-four-steps .steps .card .card-text {
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+/* .chatbot-four-steps .card {
+	padding: 50px;
+	transition: 0.2s;
+	box-shadow: 8px 8px 30px 0px rgb(42 67 113 / 20%);
+} */
+/* .chatbot-four-steps .card:hover {
+	box-shadow: 8px 8px 30px 0px rgb(42 67 113 / 40%);
+} */
+
+@media (max-width: 1399px) {
+	.chatbot-four-steps .first-set {
+		margin-bottom: 50px;
+	}
+
+	.chatbot-four-steps .steps .card {
+		padding: 20px;
+		width: 400px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.chatbot-four-steps .first-set {
+		margin-bottom: 30px;
+	}
+
+	.chatbot-four-steps .steps .card {
+		padding: 20px;
+		width: 352px;
+	}
+	.chatbot-four-steps .steps .card .card-title {
+		font-size: 16px;
+	}
+	.chatbot-four-steps .steps .card .card-text {
+		font-size: 12px;
+		opacity: 0.7;
+	}
+}
+
+@media (max-width: 991px) {
+	.chatbot-four-steps .first-set {
+		margin-bottom: 20px;
+	}
+
+	.chatbot-four-steps .steps .card {
+		padding: 15px;
+		width: 320px;
+	}
+}
+
+@media (max-width: 767px) {
+	.chatbot-four-steps .first-set {
+		margin-bottom: 15px;
+	}
+
+	.chatbot-four-steps .steps .card {
+		padding: 8px;
+		width: 240px;
+	}
+	.chatbot-four-steps .steps .card .card-text {
+		font-size: 12px;
+		opacity: 0.7;
+	}
+	.chatbot-four-steps .steps .card .card-title {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 550px) {
+	.chatbot-four-steps .first-set {
+		margin-bottom: 25px;
+	}
+
+	.chatbot-four-steps .steps .card {
+		padding: 5px;
+		width: 208px;
+	}
+}
+
+@media (max-width: 480px) {
+	.chatbot-four-steps .first-set {
+		margin-bottom: 15px;
+	}
+
+	.chatbot-four-steps .steps .card {
+		width: 176px;
+	}
+}

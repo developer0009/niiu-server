@@ -1,0 +1,5 @@
+@media (max-width: 991px) {
+	.website-dev-service-2-section {
+		flex-direction: column-reverse;
+	}
+}

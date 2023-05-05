@@ -1,0 +1,9 @@
+.social-media-marketing h6 {
+	opacity: 1;
+}
+
+@media (max-width: 991px) {
+	.special-case-padding-t {
+		margin-top: 45px;
+	}
+}

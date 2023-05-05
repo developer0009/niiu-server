@@ -1,0 +1,147 @@
+.professional-people .heading h5 {
+	opacity: 0.5;
+	font-weight: bolder;
+}
+.professional-people .heading h2 {
+	font-size: 40px;
+	font-weight: bolder;
+}
+.professional-people .content p {
+	font-size: 14px;
+	opacity: 0.7;
+	text-align: center;
+}
+
+.professional-people .heading {
+	text-align: center;
+}
+.professional-people .steps-images {
+	margin-top: 50px;
+}
+.professional-people .steps-images .steps {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 50px;
+}
+
+.professional-people .steps-images .steps .card {
+	width: 30%;
+	border: none;
+}
+
+.professional-people .steps-images .steps .card .card-text {
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+/* .professional-people .card {
+	transition: 0.8s;
+	box-shadow: 8px 8px 30px 0px rgb(42 67 113 / 20%);
+}
+
+.professional-people .card:hover {
+	box-shadow: 8px 8px 30px 0px rgb(42 67 113 / 40%);
+} */
+
+@media (max-width: 1399px) {
+	.professional-people .steps-images .steps .card {
+		width: 28%;
+		border: none;
+	}
+}
+
+@media (max-width: 1199px) {
+	.professional-people .steps-images .steps {
+		gap: 40px;
+	}
+	.professional-people .heading h5 {
+		font-size: 16px;
+	}
+	.professional-people .heading h2 {
+		font-size: 35px;
+	}
+	.professional-people .content p {
+		font-size: 12px;
+	}
+	.professional-people .heading {
+		text-align: center;
+	}
+	.professional-people .steps-images {
+		margin-top: 30px;
+	}
+	.professional-people .steps-images .steps .card .card-title {
+		font-size: 16px;
+	}
+
+	.professional-people .steps-images .steps .card {
+		width: 29%;
+		border: none;
+	}
+
+	.professional-people .steps-images .steps .card .card-text {
+		font-size: 12px;
+		opacity: 0.7;
+	}
+}
+
+@media (max-width: 991px) {
+	.professional-people .heading h5 {
+		font-size: 16px;
+	}
+	.professional-people .heading h2 {
+		font-size: 35px;
+	}
+	.professional-people .content p {
+		font-size: 12px;
+		text-align: center;
+	}
+	.professional-people .heading {
+		text-align: center;
+	}
+	.professional-people .steps-images {
+		margin-top: 30px;
+	}
+	.professional-people .steps-images .steps .card {
+		/* width: 208px; */
+		border: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.professional-people .heading h5 {
+		font-size: 14px;
+	}
+	.professional-people .heading h2 {
+		font-size: 25px;
+	}
+	.professional-people .content p {
+		font-size: 12px;
+		text-align: center;
+	}
+	.professional-people .heading {
+		text-align: center;
+	}
+	.professional-people .steps-images {
+		margin-top: 20px;
+	}
+	.professional-people .steps-images .steps .card {
+		width: 45%;
+		border: none;
+	}
+
+	.professional-people .steps-images .steps .card .card-text {
+		font-size: 12px;
+		opacity: 0.7;
+	}
+
+	.professional-people .steps-images .steps .card .card-title {
+		font-size: 14px;
+	}
+}
+@media (max-width: 575px) {
+	
+	.professional-people .steps-images .steps .card {
+		width: 250px;
+	}
+}

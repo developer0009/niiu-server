@@ -1,0 +1,84 @@
+.terms-of-use h2 {
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.terms-of-use p {
+	font-size: 14px;
+	opacity: 0.7;
+	text-align: justify;
+}
+.terms-of-use h3 {
+	font-size: 25px;
+	font-weight: bolder;
+}
+.terms-of-use h4 {
+	font-size: 20px;
+	font-weight: bolder;
+	opacity: 0.9;
+}
+.terms-of-use .blog-image {
+	margin-bottom: 30px;
+}
+.terms-of-use .author-details {
+	margin-bottom: 15px;
+}
+.terms-of-use .blog-content {
+	margin-bottom: 30px;
+}
+.terms-of-use .blog-title {
+	margin-bottom: 30px;
+}
+
+@media (max-width: 1399px) {
+}
+@media (max-width: 1199px) {
+	.terms-of-use h2 {
+		font-size: 35px;
+		font-weight: bolder;
+	}
+	.terms-of-use h3 {
+		font-size: 22px;
+		font-weight: bolder;
+	}
+	.terms-of-use h4 {
+		font-size: 18px;
+		font-weight: bolder;
+		opacity: 0.9;
+	}
+	.terms-of-use p {
+		font-size: 12px;
+		opacity: 0.7;
+		text-align: justify;
+	}
+}
+@media (max-width: 991px) {
+	.terms-of-use h2,
+	.terms-of-use h3,
+	.terms-of-use h4 {
+		text-align: center;
+	}
+}
+@media (max-width: 767px) {
+	.terms-of-use h2 {
+		font-size: 25px;
+		font-weight: bolder;
+	}
+	.terms-of-use h3 {
+		font-size: 20px;
+		font-weight: bolder;
+	}
+	.terms-of-use h4 {
+		font-size: 16px;
+		font-weight: bolder;
+		opacity: 0.9;
+	}
+	.terms-of-use p {
+		font-size: 12px;
+		opacity: 0.7;
+		text-align: justify;
+	}
+	.terms-of-use .blog-title {
+		margin-bottom: 20px;
+	}
+}

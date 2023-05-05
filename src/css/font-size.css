@@ -1,0 +1,137 @@
+h1 {
+	font-size: 55px;
+	font-weight: bolder;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+h5 {
+	font-size: 20px;
+	font-weight: bolder;
+	opacity: 0.7;
+}
+
+.caption-h6 {
+	font-size: 16px;
+	opacity: 0.7;
+}
+
+.card-title-h6 {
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.card-text {
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+.steps-title-h5 {
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.section-caption-p {
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+@media (max-width: 1399px) {
+	h1 {
+		font-size: 50px;
+	}
+	h2 {
+		font-size: 40px;
+	}
+	h5 {
+		font-size: 20px;
+		font-weight: bolder;
+	}
+	.card-caption-h6 {
+		font-size: 16px;
+	}
+	.card-title-h6 {
+		font-size: 16px;
+	}
+	.card-text {
+		font-size: 14px;
+	}
+	.steps-title-h5 {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 1199px) {
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 35px;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	.card-caption-h6 {
+		font-size: 12px;
+	}
+	.card-title-h6 {
+		font-size: 14px;
+	}
+	.card-text {
+		font-size: 12px;
+	}
+	.steps-title-h5 {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 991px) {
+	h1 {
+		font-size: 40px;
+	}
+	h2 {
+		font-size: 35px;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	.card-caption-h6 {
+		font-size: 12px;
+	}
+	.card-title-h6 {
+		font-size: 14px;
+	}
+	.card-text {
+		font-size: 12px;
+	}
+	.steps-title-h5 {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 767px) {
+	h1 {
+		font-size: 35px;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	h5 {
+		font-size: 14px;
+	}
+	.card-caption-h6 {
+		font-size: 12px;
+	}
+	.card-title-h6 {
+		font-size: 14px;
+	}
+	.card-text {
+		font-size: 12px;
+	}
+	.steps-title-h5 {
+		font-size: 14px;
+	}
+}

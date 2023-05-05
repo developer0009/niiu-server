@@ -1,0 +1,34 @@
+.why-choose-us-section-website-development .row {
+	display: flex;
+	align-items: center;
+}
+.why-choose-us-section-website-development .arrow-icon {
+	width: 32px;
+	opacity: 0.7;
+}
+.why-choose-us-section-website-development .who-are-we-content {
+	padding-right: 40px;
+}
+
+@media (max-width: 991px) {
+	.why-choose-us-section-website-development .all-cards-website-development {
+		margin-top: 50px;
+	}
+	.why-choose-us-section-website-development .arrow-icon {
+		width: 28px;
+		opacity: 0.7;
+	}
+	.why-choose-us-section-website-development .who-are-we-content {
+		padding-right: 0px;
+	}
+	.why-choose-us-section-website-development .extra-responsive-padding {
+		padding-bottom: 40px;
+	}
+}
+
+@media (max-width: 767px) {
+	.why-choose-us-section-website-development .arrow-icon {
+		width: 24px;
+		opacity: 0.7;
+	}
+}

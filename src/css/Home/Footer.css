@@ -1,0 +1,206 @@
+.footer-section .footer-data {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 80px;
+}
+.footer-section .footer-data .data {
+	width: 20%;
+}
+.footer-data h5,
+.footer-data span {
+	color: white;
+}
+.css-1ghj32i {
+	padding-top: 0px !important;
+}
+.footer-section-bg {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer-section .row {
+	padding-top: 30px;
+}
+.footer-section .last-row {
+	padding-bottom: 30px;
+}
+.footer-section .link {
+	opacity: 0.8;
+	transition: 0.8s;
+	font-size: 14px;
+}
+.footer-section i {
+	opacity: 0.8;
+	transition: 0.8s;
+	font-size: 10px;
+}
+.footer-section .link:hover {
+	text-decoration: underline;
+	opacity: 1;
+}
+
+.footer-section i:hover {
+	opacity: 1;
+	color: #fe4c1c;
+}
+.footer-section .insta-posts img {
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+}
+.footer-section .links,
+.footer-section .insta-posts,
+.footer-section .icons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-section p {
+	font-size: 14px;
+}
+.footer-section span {
+	font-size: 14px;
+}
+.footer-section .email-phone {
+	color: white;
+	opacity: 0.6;
+	transition: 0.8s;
+}
+.footer-section .email-phone:hover {
+	opacity: 0.8;
+}
+
+@media (max-width: 1399px) {
+	.footer-section .footer-data {
+		gap: 50px;
+		justify-content: space-between;
+	}
+}
+
+@media (max-width: 1199px) {
+	.footer-section .footer-data {
+		justify-content: center;
+		gap: 100px;
+	}
+	.footer-section .footer-data .data {
+		width: 30%;
+	}
+	.footer-section-bg {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.footer-section .insta-posts img {
+		width: 50px;
+		height: 50px;
+		border-radius: 10px;
+	}
+}
+@media (max-width: 991px) {
+	.footer-section .footer-data {
+		justify-content: center;
+		gap: 50px;
+	}
+	.footer-section .footer-data .data {
+		width: 45%;
+	}
+	.footer-section .row {
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	.footer-section .last-row {
+		padding-bottom: 10px;
+	}
+	.footer-section .col-lg-3,
+	.col-lg-2 {
+		padding: 0px;
+	}
+	.footer-section .left-spacing {
+		padding-left: 20px;
+		padding-top: 15px;
+	}
+	.footer-section,
+	.footer-section-bg {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.footer-section .insta-posts img {
+		width: 50px;
+		height: 50px;
+		border-radius: 10px;
+	}
+	.footer-section .col-md-6 {
+		text-align: center;
+	}
+	.footer-section .links,
+	.footer-section .insta-posts,
+	.footer-section .icons {
+		display: block;
+		justify-content: center;
+	}
+	.footer-section .upper {
+		margin-bottom: 50px;
+	}
+}
+@media (max-width: 767px) {
+	.footer-section .footer-data {
+		justify-content: center;
+		gap: 50px;
+	}
+	.footer-section .footer-data .data {
+		width: 100%;
+		text-align: center;
+	}
+	.footer-section .row {
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	.footer-section .last-row {
+		padding-bottom: 10px;
+	}
+	.footer-section .left-spacing {
+		padding-left: 0px;
+		padding-top: 0px;
+	}
+	.footer-section .logo img {
+		width: 260px;
+	}
+
+	.footer-section .insta-posts img {
+		width: 40px;
+		height: 40px;
+		border-radius: 10px;
+	}
+	.footer-section .col-md-6 {
+		text-align: center;
+	}
+	.footer-section .upper {
+		margin-bottom: 20px;
+	}
+	.footer-section .link,
+	.footer-section i {
+		opacity: 0.8;
+		transition: 0.8s;
+		font-size: 12px;
+	}
+	.footer-section .icons i {
+		padding: 10px;
+	}
+	.footer-section p {
+		font-size: 12px;
+	}
+	.footer-section span {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 400px) {
+	.footer-section .row {
+		padding-top: 0px;
+		padding-bottom: 20px;
+	}
+	.footer-section .last-row {
+		padding-bottom: 0px;
+	}
+}

@@ -1,0 +1,127 @@
+.available-job-section .heading {
+	margin-bottom: 50px;
+}
+.available-job-section .card .card-body .details {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+.available-job-section .card .card-body .details i {
+	margin-right: 3px;
+}
+.available-job-section .card .card-body .details .card-text {
+	margin-right: 15px;
+}
+.available-job-section button span {
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.available-job-section button {
+	width: 160px;
+	height: 45px;
+	outline: none;
+}
+.available-job-section button span:after {
+	content: "\00bb";
+	position: absolute;
+	font-size: "50px";
+	opacity: 0;
+	top: 0;
+	left: 40px;
+	transition: 0.5s;
+}
+
+.available-job-section button:hover span {
+	padding-right: 25px;
+}
+.available-job-section .steps {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 50px;
+}
+
+@media (max-width: 1199px) {
+	.available-job-section .steps {
+		gap: 40px;
+	}
+	.available-job-section .heading {
+		margin-bottom: 30px;
+	}
+	.available-job-section .card .card-body .details {
+		margin-top: 15px;
+	}
+	.available-job-section button {
+		width: 140px;
+		height: 40px;
+		outline: none;
+	}
+	.available-job-section button span:after {
+		content: "\00bb";
+		position: absolute;
+		font-size: "50px";
+		opacity: 0;
+		top: 0;
+		left: 30px;
+		transition: 0.5s;
+	}
+	.available-job-section button span {
+		font-size: 12px;
+	}
+}
+@media (max-width: 991px) {
+	.available-job-section button {
+		width: 120px;
+		height: 35px;
+		outline: none;
+	}
+	.available-job-section button span:after {
+		content: "\00bb";
+		position: absolute;
+		font-size: "50px";
+		opacity: 0;
+		top: 0;
+		left: 25px;
+		transition: 0.5s;
+	}
+	.available-job-section .heading {
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 767px) {
+	.available-job-section .card {
+		/* width: 260px !important; */
+	}
+	.available-job-section .heading {
+		margin-bottom: 10px;
+	}
+	.available-job-section button span {
+		font-size: 12px;
+	}
+
+	.available-job-section .card .card-body .details i {
+		margin-right: 3px;
+	}
+	.available-job-section .card .card-body .details .card-text {
+		margin-right: 15px;
+	}
+}
+
+@media (max-width: 550px) {
+	.available-job-section .card {
+		width: 300px !important;
+	}
+	.available-job-section .card .card-body .details {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 0px;
+	}
+	.available-job-section .card .card-body .details i {
+		margin-right: 2px;
+	}
+	.available-job-section .card .card-body .details .card-text {
+		margin-right: 12px;
+	}
+}

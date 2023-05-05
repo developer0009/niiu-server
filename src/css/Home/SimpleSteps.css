@@ -1,0 +1,43 @@
+.simple-steps-section .heading h5 {
+	opacity: 0.5;
+	font-weight: bolder;
+}
+.simple-steps-section .heading h2 {
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.simple-steps-section .cards-section, .spacing-top-bottom {
+	margin-top: 50px;
+}
+
+@media (max-width: 1199px) {
+	.simple-steps-section .heading h5 {
+		font-size: 16px;
+	}
+	.simple-steps-section .heading h2 {
+		font-size: 35px;
+	}
+	.simple-steps-section .cards-section, .spacing-top-bottom {
+		margin-top: 30px;
+	}
+}
+
+@media (max-width: 991px) {
+	.simple-steps-section .cards-section, .spacing-top-bottom {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	.simple-steps-section .heading h5 {
+		font-size: 14px;
+	}
+	.simple-steps-section .heading h2 {
+		font-size: 25px;
+	}
+
+	.simple-steps-section .cards-section, .spacing-top-bottom {
+		margin-top: 10px;
+	}
+}

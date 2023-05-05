@@ -1,0 +1,240 @@
+.our-blog-section .cards .card-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.our-blog-section .card {
+	width: 320px;
+	border: none;
+	height: 420px;
+	overflow: hidden;
+	/* transition: 0.2s; */
+	/* box-shadow: 8px 8px 30px 0px rgb(42 67 113 / 20%); */
+	/* padding: 0px; */
+}
+/* .our-blog-section .card:hover {
+	box-shadow: 8px 8px 30px 0px rgb(42 67 113 / 40%);
+} */
+/* .our-blog-section .card .card-body {
+	height: 220px;
+} */
+.our-blog-section .card .card-body .details {
+	display: flex;
+	justify-content: space-between;
+}
+
+.our-blog-section .link {
+	color: #fe4c1c;
+	text-decoration: none;
+	transition: 0.8s;
+}
+.our-blog-section .link:hover {
+	color: black;
+}
+
+.our-blog-section .card-title {
+	color: black;
+	font-weight: bolder;
+	line-height: 30px;
+	transition: 0.8s;
+}
+.our-blog-section .card-title:hover {
+	color: #fe4c1c;
+}
+.our-blog-section .card-text {
+	color: black;
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+.our-blog-section .button {
+	border: none;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	border-radius: 20px;
+	background-color: #fe4c1c;
+	color: white;
+	transition: all 0.5s;
+	margin: 5px;
+}
+.our-blog-section .all-blogs-btn {
+	margin-top: 40px;
+}
+
+.our-blog-section .button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.our-blog-section .button span:after {
+	content: "\00bb";
+	position: absolute;
+	font-size: "50px";
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.our-blog-section .button:hover span {
+	padding-right: 25px;
+}
+
+.our-blog-section .button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.our-blog-section h2 {
+	font-size: 40px;
+	font-weight: bolder;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.our-blog-section .cards {
+	margin-top: 50px;
+}
+
+@media (max-width: 1399px) {
+	.our-blog-section .card {
+		width: 288px;
+		border: none;
+	}
+	.our-blog-section .all-blogs-btn {
+		margin-top: 30px;
+	}
+}
+@media (max-width: 1199px) {
+	.our-blog-section .all-blogs-btn {
+		margin-top: 20px;
+	}
+	/* .our-blog-section .card .card-body {
+		height: 180px;
+	} */
+	.our-blog-section .button {
+		height: 40px;
+	}
+	.our-blog-section .cards {
+		margin-top: 30px;
+	}
+	.our-blog-section .button {
+		font-size: 12px;
+	}
+	.our-blog-section .card {
+		width: 240px;
+		border: none;
+		height: 360px;
+	}
+	.our-blog-section h5 {
+		font-size: 16px;
+	}
+	.our-blog-section h2 {
+		font-size: 35px;
+		font-weight: bolder;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.our-blog-section .card-title {
+		font-weight: bolder;
+		line-height: normal;
+		transition: 0.8s;
+	}
+	.our-blog-section .card-text {
+		font-size: 12px;
+		opacity: 0.7;
+	}
+	.our-blog-section p {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 991px) {
+	/* .our-blog-section .card .card-body {
+		height: 150px;
+	} */
+	.our-blog-section .cards {
+		margin-top: 20px;
+	}
+	.our-blog-section .card {
+		width: 208px;
+		border: none;
+		height: 350px;
+	}
+	.our-blog-section .card-title {
+		font-weight: bolder;
+		line-height: normal;
+		transition: 0.8s;
+		font-size: 14px;
+	}
+	.our-blog-section .card-text {
+		font-size: 12px;
+		opacity: 0.7;
+	}
+	.our-blog-section p {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 767px) {
+	.our-blog-section .all-blogs-btn {
+		margin-top: 20px;
+	}
+	/* .our-blog-section .card .card-body {
+		height: 205px;
+	} */
+	.our-blog-section .button {
+		font-size: 12px;
+	}
+	.our-blog-section .card {
+		width: 160px;
+		border: none;
+		height: 355px;
+	}
+	.our-blog-section h5 {
+		font-size: 14px;
+	}
+	.our-blog-section h2 {
+		font-size: 25px;
+		font-weight: bolder;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.our-blog-section .card-title {
+		font-weight: bolder;
+		line-height: normal;
+		transition: 0.8s;
+		font-size: 14px;
+	}
+	.our-blog-section .card-text {
+		font-size: 12px;
+		opacity: 0.7;
+	}
+	.our-blog-section p {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 550px) {
+	.our-blog-section .all-blogs-btn {
+		margin-top: 20px;
+	}
+	.our-blog-section .cards .card-row {
+		display: block;
+		justify-content: space-between;
+	}
+	/* .our-blog-section .card .card-body {
+		height: 150px;
+	} */
+	.our-blog-section .card {
+		margin-left: auto;
+		margin-right: auto;
+		width: 240px;
+		height: 350px;
+		border: none;
+		margin-bottom: 30px;
+	}
+}

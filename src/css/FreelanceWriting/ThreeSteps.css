@@ -1,0 +1,92 @@
+.freelance-writing-steps .steps {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.freelance-writing-steps .steps .card {
+	padding: 20px;
+	text-align: center;
+	width: 432px;
+	border: none;
+}
+
+.freelance-writing-steps .steps .card .card-text {
+	font-size: 14px;
+	opacity: 0.7;
+}
+
+/* .freelance-writing-steps .card {
+	padding: 50px;
+	transition: 0.2s;
+	box-shadow: 8px 8px 30px 0px rgb(42 67 113 / 20%);
+} */
+/* .freelance-writing-steps .card:hover {
+	box-shadow: 8px 8px 30px 0px rgb(42 67 113 / 40%);
+} */
+
+@media (max-width: 1399px) {
+	.freelance-writing-steps .steps .card {
+		padding: 20px;
+		width: 400px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.freelance-writing-steps .steps .card {
+		padding: 20px;
+		width: 352px;
+	}
+	.freelance-writing-steps .steps .card .card-title {
+		font-size: 16px;
+	}
+	.freelance-writing-steps .steps .card .card-text {
+		font-size: 12px;
+		opacity: 0.7;
+	}
+}
+
+@media (max-width: 991px) {
+	.freelance-writing-steps .steps .card {
+		padding: 15px;
+		width: 320px;
+	}
+	.freelance-writing-steps .last-one {
+		/* display: flex;
+		justify-content: center; */
+		margin-top: 40px;
+	}
+}
+
+@media (max-width: 767px) {
+	.freelance-writing-steps .steps .card {
+		padding: 2px;
+		width: 240px;
+	}
+	.freelance-writing-steps .steps .card .card-text {
+		font-size: 12px;
+		opacity: 0.7;
+	}
+	.freelance-writing-steps .steps .card .card-title {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 575px) {
+	.freelance-writing-steps .second-last {
+		/* display: flex;
+		justify-content: center; */
+		margin-top: 40px;
+	}
+	.freelance-writing-steps .steps .card {
+		text-align: center;
+		width: 432px;
+		border: none;
+	}
+}
+@media (max-width: 550px) {
+	.freelance-writing-steps .steps .card {
+		text-align: center;
+		width: 432px;
+		border: none;
+	}
+}

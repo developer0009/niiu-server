@@ -1,0 +1,25 @@
+.map-section #map-container-google-3 {
+	height: 600px;
+	width: 100%;
+}
+
+@media (max-width: 992px) {
+	.map-section #map-container-google-3 {
+		height: 500px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.map-section #map-container-google-3 {
+		height: 400px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 576px) {
+	.map-section #map-container-google-3 {
+		height: 400px;
+		width: 100%;
+	}
+}

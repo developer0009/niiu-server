@@ -1,0 +1,10 @@
+.error,
+.success {
+	color: white !important;
+	opacity: 0.7 !important;
+	margin-bottom: 10px;
+}
+
+.vboutEmbedFormErrorMessage {
+	display: none;
+}

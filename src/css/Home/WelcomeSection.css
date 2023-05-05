@@ -1,0 +1,329 @@
+.welcome-section-bg {
+	/* background-color: #2b0a78; */
+	background-image: linear-gradient(to right, #2b0a78, #764ba2);
+	color: white;
+	display: flex;
+	align-items: center;
+	min-height: 600px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/* margin-top: 90px !important; */
+}
+.welcome-section .row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.welcome-section .row h5 {
+	opacity: 0.7;
+	font-weight: bolder;
+}
+
+.welcome-section .row h1 {
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+.welcome-section .row h6 {
+	opacity: 0.7;
+}
+
+.welcome-section .row i {
+	font-size: 25px;
+}
+.welcome-image img {
+	width: 100%;
+}
+
+.hire-us-now {
+	display: flex;
+}
+.hire-us-now .svg {
+	margin-left: 20px;
+}
+.welcome-section .icons i {
+	padding: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+.hire-us-now .button {
+	border: none;
+	text-align: center;
+	width: 200px;
+	height: 50px;
+	border-radius: 20px;
+	background-color: #fe4c1c;
+	color: white;
+	transition: all 0.5s;
+	margin: 5px;
+}
+
+@media (max-width: 1199px) {
+	.hire-us-now .button {
+		height: 40px;
+	}
+	.welcome-section-bg {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		/* margin-top: 80px; */
+	}
+	.welcome-section .row h5 {
+		font-size: 16px;
+	}
+	.welcome-section .row h1 {
+		font-size: 40px;
+	}
+	.welcome-section .row h6,
+	.welcome-section .hire-us-now span {
+		font-size: 12px;
+	}
+	.welcome-section .icons i {
+		padding: 20px;
+		padding-bottom: 0px;
+		margin-top: 0px;
+	}
+	.welcome-section .row i {
+		font-size: 20px;
+	}
+	.welcome-section .welcome-image {
+		display: flex;
+		justify-content: center;
+		margin-top: 50px;
+	}
+	.hire-us-now {
+		display: block;
+	}
+	.hire-us-now .btn-hire-us-now {
+		margin-bottom: 20px;
+	}
+	.welcome-section .icons {
+		margin-top: 20px;
+	}
+	.hire-us-now .svg {
+		margin-left: 0px;
+		margin-top: 5px;
+	}
+	.play-icon {
+		margin: 0px !important;
+	}
+}
+@media (max-width: 991px) {
+	/* .welcome-section-bg {
+		margin-top: 75px;
+	} */
+	.welcome-content {
+		text-align: center;
+	}
+	.welcome-section .row h5 {
+		font-size: 16px;
+	}
+	.welcome-section .row h1 {
+		font-size: 40px;
+	}
+	.welcome-section .row h6,
+	.welcome-section .hire-us-now span {
+		font-size: 12px;
+	}
+	.welcome-section .row i {
+		font-size: 20px;
+	}
+	.welcome-section .welcome-image {
+		display: flex;
+		justify-content: center;
+		margin-top: 45px;
+	}
+	.welcome-image img {
+		width: 500px;
+	}
+	.hire-us-now {
+		display: flex;
+		justify-content: center;
+	}
+	.welcome-section .icons {
+		display: flex;
+		justify-content: center;
+	}
+	.welcome-section .icons i {
+		padding: 20px;
+		padding-bottom: 0px;
+	}
+	.hire-us-now .btn-hire-us-now {
+		margin-bottom: 0px;
+	}
+	.hire-us-now .svg {
+		margin-left: 20px;
+		margin-top: 0px;
+	}
+}
+@media (max-width: 767px) {
+	.welcome-content {
+		text-align: center;
+	}
+	.welcome-section .row h5 {
+		font-size: 14px;
+	}
+	.welcome-section .row h1 {
+		font-size: 30px;
+	}
+	.welcome-section .row h6,
+	.welcome-section .hire-us-now span {
+		font-size: 12px;
+	}
+	.welcome-section .row i {
+		font-size: 18px;
+	}
+	.welcome-section .welcome-image {
+		display: flex;
+		justify-content: center;
+		margin-top: 45px;
+	}
+	.welcome-image img {
+		width: 400px;
+	}
+	.hire-us-now,
+	.welcome-section .icons {
+		display: flex;
+		justify-content: center;
+	}
+	.hire-us-now .svg {
+		margin-left: 20px;
+		margin-top: 0px;
+	}
+
+	.welcome-section .icons {
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 434px) {
+	.hire-us-now {
+		display: block;
+		align-items: center;
+	}
+	.hire-us-now .svg {
+		margin-top: 15px;
+		margin-left: 0px;
+		justify-content: center;
+	}
+}
+
+.hire-us-now .button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.hire-us-now .button span:after {
+	content: "\00bb";
+	position: absolute;
+	font-size: "50px";
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.hire-us-now .button:hover span {
+	padding-right: 25px;
+}
+
+.hire-us-now .button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.play-icon {
+	/* border: 4px rgb(252, 252, 255) solid; */
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+	margin: 0px auto;
+	cursor: pointer;
+	position: relative;
+}
+.play-icon img {
+	width: 30px;
+	height: 30px;
+	margin-left: 6px;
+}
+.play-icon img.second-img {
+	display: none;
+}
+
+.play-txt {
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	line-height: 1.4;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 0px;
+}
+.stroke-dotted {
+	opacity: 0;
+	stroke-dasharray: 4, 5;
+	stroke-width: 1px;
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-animation: spin 4s infinite linear;
+	animation: spin 4s infinite linear;
+	-webkit-transition: opacity 1s ease, stroke-width 1s ease;
+	transition: opacity 1s ease, stroke-width 1s ease;
+}
+/* spin animation  */
+
+@-webkit-keyframes spin {
+	to {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@keyframes spin {
+	to {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+.stroke-solid {
+	stroke-dashoffset: 0;
+	stroke-dasharray: 300;
+	stroke-width: 4px;
+	-webkit-transition: stroke-dashoffset 1s ease, opacity 1s ease;
+	transition: stroke-dashoffset 1s ease, opacity 1s ease;
+}
+
+.icon {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	-webkit-transition: -webkit-transform 200ms ease-out;
+	transition: -webkit-transform 200ms ease-out;
+	transition: transform 200ms ease-out;
+	transition: transform 200ms ease-out, -webkit-transform 200ms ease-out;
+}
+#play:hover .stroke-dotted {
+	stroke-width: 4px;
+	opacity: 1;
+}
+#play:hover .stroke-solid {
+	opacity: 0;
+	stroke-dashoffset: 300;
+}
+#play:hover .icon {
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.welcome-section i {
+	transition: 0.7s;
+}
+.welcome-section i:hover {
+	cursor: pointer;
+	color: #fe4c1c;
+}
